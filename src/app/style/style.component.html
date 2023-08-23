@@ -1,0 +1,22 @@
+<!--  Style binding-->
+<h1 [style.color] = "'red'">Marvellous inofosystem</h1>  
+
+<h1 [style.color] = "mycolor">Welcome </h1>
+
+<h1 [style.color] = "isSet ? 'yellow' : 'red'" >Marvellous inofosystem </h1>
+
+<br><br><br><br>
+<button [style.color] = "'yellow'" [style.backgroundColor] = "'red'">yellow</button>
+
+<!-- class binding -->
+<h1 class="danger">Demonstration of class binding</h1>
+<h1 class="success ">Demonstration of class binding</h1>
+
+<h1 [class]="myClass">Demonstration of class binding</h1>
+
+<br><br>
+<h1>Demonstration of Event binding</h1>
+
+<button (click) = "MyEvent()">submit</button>
+
+<h1>{{Data}}</h1>
